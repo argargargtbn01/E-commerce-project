@@ -7,7 +7,7 @@ import Products from "./Components/Products/Products"
 import Navbar from "./Components/Navbar";
 import Cart from "./Components/Cart"
 import { Provider } from "react-redux"
-import store from "./redux/store"
+// import store from "./redux/store"
 import PersistedStore from "./PersistedStore";
 ReactDOM.render(
   <React.StrictMode>
