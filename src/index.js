@@ -15,7 +15,7 @@ ReactDOM.render(
       <Provider store={PersistedStore.getDefaultStore().store}>
         <Navbar />
         <Routes>
-          <Route path="/" element={<App />}></Route>
+          <Route path="/" element={<Products />}></Route>
           <Route path="/products" element={<Products />}></Route>
           <Route path="/cart" element={<Cart />}></Route>
         </Routes>
